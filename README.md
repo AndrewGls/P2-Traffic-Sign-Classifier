@@ -93,7 +93,7 @@ show_sample(X_train[index], y_train[index])
 ```
 
 
-![png](output_9_0.png)
+![png](./images/output_9_0.png)
 
 
 #### Train sample
@@ -105,7 +105,7 @@ show_sample(X_test[index], y_test[index])
 ```
 
 
-![png](output_11_0.png)
+![png](./images/output_11_0.png)
 
 
 
@@ -175,7 +175,7 @@ print("Number of testing examples =", len(y_test))
     
 
 
-![png](output_15_1.png)
+![png](./images/output_15_1.png)
 
 
 As we can see from histograms, there is big difference between the classes in the train set. For example, the class 0 is presented by less that 200 samples. It would be better to generate additional samples (data augmentation) using small random translation along X and Y, rotation and, as optional, perspective distortion (can be approximated by affine transformation) to reduce the probable bias of network towards some classes.
@@ -332,7 +332,7 @@ print("Number of testing examples =", len(y_test))
     
 
 
-![png](output_21_1.png)
+![png](./images/output_21_1.png)
 
 
 
@@ -390,7 +390,7 @@ Input_channels = 1 # now input images are gray
 ```
 
 
-![png](output_24_0.png)
+![png](./images/output_24_0.png)
 
 
 #### Centering and normalization
@@ -1161,7 +1161,7 @@ plt.tight_layout()
 ```
 
 
-![png](output_61_0.png)
+![png](./images/output_61_0.png)
 
 
 
@@ -1192,7 +1192,7 @@ X_test_new = center_and_normaize_image(X_test_new, MEAN, STD)
 ```
 
 
-![png](output_62_0.png)
+![png](./images/output_62_0.png)
 
 
 ### Question 6
@@ -1312,7 +1312,7 @@ show_softmax_prob(0, new_images[0], y_test_new, top_k[0][0], top_k[1][0])
 ```
 
 
-![png](output_74_0.png)
+![png](./images/output_74_0.png)
 
 
 #### Sample 1: probability of top 5 classes
@@ -1332,7 +1332,7 @@ show_softmax_prob(1, new_images[1], y_test_new, top_k[0][1], top_k[1][1])
 ```
 
 
-![png](output_77_0.png)
+![png](./images/output_77_0.png)
 
 
 #### Sample 2: probability of top 5 classes
@@ -1352,7 +1352,7 @@ show_softmax_prob(2, new_images[2], y_test_new, top_k[0][2], top_k[1][2])
 ```
 
 
-![png](output_80_0.png)
+![png](./images/output_80_0.png)
 
 
 #### Sample 3: probability of top 5 classes
@@ -1372,7 +1372,7 @@ show_softmax_prob(3, new_images[3], y_test_new, top_k[0][3], top_k[1][3])
 ```
 
 
-![png](output_83_0.png)
+![png](./images/output_83_0.png)
 
 
 #### Sample 4: probability of top 5 classes
@@ -1392,7 +1392,7 @@ show_softmax_prob(4, new_images[4], y_test_new, top_k[0][4], top_k[1][4])
 ```
 
 
-![png](output_86_0.png)
+![png](./images/output_86_0.png)
 
 
 ### Question 8
