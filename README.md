@@ -93,7 +93,7 @@ show_sample(X_train[index], y_train[index])
 ```
 
 
-![png](./images/output_9_0.png)
+![png](output_9_0.png)
 
 
 #### Train sample
@@ -105,7 +105,7 @@ show_sample(X_test[index], y_test[index])
 ```
 
 
-![png](./images/output_11_0.png)
+![png](output_11_0.png)
 
 
 
@@ -175,7 +175,7 @@ print("Number of testing examples =", len(y_test))
     
 
 
-![png](./images/output_15_1.png)
+![png](output_15_1.png)
 
 
 As we can see from histograms, there is big difference between the classes in the train set. For example, the class 0 is presented by less that 200 samples. It would be better to generate additional samples (data augmentation) using small random translation along X and Y, rotation and, as optional, perspective distortion (can be approximated by affine transformation) to reduce the probable bias of network towards some classes.
@@ -332,7 +332,7 @@ print("Number of testing examples =", len(y_test))
     
 
 
-![png](./images/output_21_1.png)
+![png](output_21_1.png)
 
 
 
@@ -390,7 +390,7 @@ Input_channels = 1 # now input images are gray
 ```
 
 
-![png](./images/output_24_0.png)
+![png](output_24_0.png)
 
 
 #### Centering and normalization
@@ -704,97 +704,97 @@ with tf.Session() as sess:
     Training...
     
     EPOCH 1 ...
-    Validation Accuracy = 0.681
+    Validation Accuracy = 0.744
     
     EPOCH 2 ...
-    Validation Accuracy = 0.824
+    Validation Accuracy = 0.845
     
     EPOCH 3 ...
-    Validation Accuracy = 0.879
+    Validation Accuracy = 0.898
     
     EPOCH 4 ...
-    Validation Accuracy = 0.910
+    Validation Accuracy = 0.924
     
     EPOCH 5 ...
-    Validation Accuracy = 0.934
+    Validation Accuracy = 0.929
     
     EPOCH 6 ...
-    Validation Accuracy = 0.938
-    
-    EPOCH 7 ...
     Validation Accuracy = 0.949
     
+    EPOCH 7 ...
+    Validation Accuracy = 0.957
+    
     EPOCH 8 ...
-    Validation Accuracy = 0.952
+    Validation Accuracy = 0.961
     
     EPOCH 9 ...
-    Validation Accuracy = 0.960
-    
-    EPOCH 10 ...
     Validation Accuracy = 0.965
     
+    EPOCH 10 ...
+    Validation Accuracy = 0.967
+    
     EPOCH 11 ...
-    Validation Accuracy = 0.966
-    
-    EPOCH 12 ...
-    Validation Accuracy = 0.968
-    
-    EPOCH 13 ...
-    Validation Accuracy = 0.971
-    
-    EPOCH 14 ...
     Validation Accuracy = 0.970
     
-    EPOCH 15 ...
+    EPOCH 12 ...
+    Validation Accuracy = 0.973
+    
+    EPOCH 13 ...
     Validation Accuracy = 0.975
     
-    EPOCH 16 ...
+    EPOCH 14 ...
     Validation Accuracy = 0.974
     
+    EPOCH 15 ...
+    Validation Accuracy = 0.979
+    
+    EPOCH 16 ...
+    Validation Accuracy = 0.980
+    
     EPOCH 17 ...
-    Validation Accuracy = 0.976
+    Validation Accuracy = 0.980
     
     EPOCH 18 ...
-    Validation Accuracy = 0.978
+    Validation Accuracy = 0.979
     
     EPOCH 19 ...
-    Validation Accuracy = 0.977
+    Validation Accuracy = 0.981
     
     EPOCH 20 ...
-    Validation Accuracy = 0.980
-    
-    EPOCH 21 ...
-    Validation Accuracy = 0.980
-    
-    EPOCH 22 ...
     Validation Accuracy = 0.982
     
+    EPOCH 21 ...
+    Validation Accuracy = 0.982
+    
+    EPOCH 22 ...
+    Validation Accuracy = 0.984
+    
     EPOCH 23 ...
-    Validation Accuracy = 0.981
+    Validation Accuracy = 0.984
     
     EPOCH 24 ...
-    Validation Accuracy = 0.981
+    Validation Accuracy = 0.984
     
     EPOCH 25 ...
-    Validation Accuracy = 0.983
+    Validation Accuracy = 0.984
     
     EPOCH 26 ...
-    Validation Accuracy = 0.983
+    Validation Accuracy = 0.984
     
     EPOCH 27 ...
-    Validation Accuracy = 0.983
+    Validation Accuracy = 0.985
     
     EPOCH 28 ...
-    Validation Accuracy = 0.983
+    Validation Accuracy = 0.985
     
     EPOCH 29 ...
     Validation Accuracy = 0.982
     
     EPOCH 30 ...
-    Validation Accuracy = 0.983
+    Validation Accuracy = 0.986
     
     EPOCH 31 ...
-    Validation Accuracy = 0.983
+    Validation Accuracy = 0.986
     
     EPOCH 32 ...
     Validation Accuracy = 0.985
@@ -803,79 +803,79 @@ with tf.Session() as sess:
     Validation Accuracy = 0.984
     
     EPOCH 34 ...
-    Validation Accuracy = 0.982
+    Validation Accuracy = 0.984
     
     EPOCH 35 ...
-    Validation Accuracy = 0.985
-    
-    EPOCH 36 ...
     Validation Accuracy = 0.986
     
+    EPOCH 36 ...
+    Validation Accuracy = 0.987
+    
     EPOCH 37 ...
-    Validation Accuracy = 0.984
+    Validation Accuracy = 0.987
     
     EPOCH 38 ...
-    Validation Accuracy = 0.984
+    Validation Accuracy = 0.987
     
     EPOCH 39 ...
     Validation Accuracy = 0.986
     
     EPOCH 40 ...
-    Validation Accuracy = 0.982
+    Validation Accuracy = 0.985
     
     EPOCH 41 ...
-    Validation Accuracy = 0.987
+    Validation Accuracy = 0.986
     
     EPOCH 42 ...
     Validation Accuracy = 0.986
     
     EPOCH 43 ...
-    Validation Accuracy = 0.988
+    Validation Accuracy = 0.987
     
     EPOCH 44 ...
-    Validation Accuracy = 0.985
+    Validation Accuracy = 0.987
     
     EPOCH 45 ...
     Validation Accuracy = 0.988
     
     EPOCH 46 ...
-    Validation Accuracy = 0.984
+    Validation Accuracy = 0.986
     
     EPOCH 47 ...
-    Validation Accuracy = 0.986
+    Validation Accuracy = 0.987
     
     EPOCH 48 ...
-    Validation Accuracy = 0.986
+    Validation Accuracy = 0.987
     
     EPOCH 49 ...
-    Validation Accuracy = 0.987
+    Validation Accuracy = 0.988
     
     EPOCH 50 ...
-    Validation Accuracy = 0.989
+    Validation Accuracy = 0.988
     
     EPOCH 51 ...
-    Validation Accuracy = 0.986
+    Validation Accuracy = 0.987
     
     EPOCH 52 ...
-    Validation Accuracy = 0.987
-    
-    EPOCH 53 ...
     Validation Accuracy = 0.986
     
-    EPOCH 54 ...
-    Validation Accuracy = 0.988
-    
-    EPOCH 55 ...
+    EPOCH 53 ...
     Validation Accuracy = 0.987
     
+    EPOCH 54 ...
+    Validation Accuracy = 0.986
+    
+    EPOCH 55 ...
+    Validation Accuracy = 0.989
+    
     EPOCH 56 ...
-    Validation Accuracy = 0.988
+    Validation Accuracy = 0.989
     
     EPOCH 57 ...
     Validation Accuracy = 0.988
     
     EPOCH 58 ...
-    Validation Accuracy = 0.986
+    Validation Accuracy = 0.987
     
     EPOCH 59 ...
     Validation Accuracy = 0.986
@@ -887,49 +887,49 @@ with tf.Session() as sess:
     Validation Accuracy = 0.988
     
     EPOCH 62 ...
-    Validation Accuracy = 0.987
+    Validation Accuracy = 0.988
     
     EPOCH 63 ...
-    Validation Accuracy = 0.986
+    Validation Accuracy = 0.988
     
     EPOCH 64 ...
-    Validation Accuracy = 0.987
+    Validation Accuracy = 0.988
     
     EPOCH 65 ...
-    Validation Accuracy = 0.987
+    Validation Accuracy = 0.989
     
     EPOCH 66 ...
-    Validation Accuracy = 0.987
+    Validation Accuracy = 0.989
     
     EPOCH 67 ...
     Validation Accuracy = 0.987
     
     EPOCH 68 ...
-    Validation Accuracy = 0.989
+    Validation Accuracy = 0.987
     
     EPOCH 69 ...
-    Validation Accuracy = 0.988
+    Validation Accuracy = 0.989
     
     EPOCH 70 ...
-    Validation Accuracy = 0.986
+    Validation Accuracy = 0.987
     
     EPOCH 71 ...
-    Validation Accuracy = 0.988
+    Validation Accuracy = 0.989
     
     EPOCH 72 ...
-    Validation Accuracy = 0.988
+    Validation Accuracy = 0.990
     
     EPOCH 73 ...
-    Validation Accuracy = 0.987
+    Validation Accuracy = 0.989
     
     EPOCH 74 ...
-    Validation Accuracy = 0.987
+    Validation Accuracy = 0.988
     
     EPOCH 75 ...
     Validation Accuracy = 0.988
     
     EPOCH 76 ...
-    Validation Accuracy = 0.988
+    Validation Accuracy = 0.990
     
     EPOCH 77 ...
     Validation Accuracy = 0.989
@@ -941,28 +941,28 @@ with tf.Session() as sess:
     Validation Accuracy = 0.988
     
     EPOCH 80 ...
-    Validation Accuracy = 0.987
+    Validation Accuracy = 0.989
     
     EPOCH 81 ...
-    Validation Accuracy = 0.987
+    Validation Accuracy = 0.989
     
     EPOCH 82 ...
     Validation Accuracy = 0.989
     
     EPOCH 83 ...
-    Validation Accuracy = 0.989
+    Validation Accuracy = 0.988
     
     EPOCH 84 ...
-    Validation Accuracy = 0.988
+    Validation Accuracy = 0.990
     
     EPOCH 85 ...
-    Validation Accuracy = 0.988
+    Validation Accuracy = 0.989
     
     EPOCH 86 ...
     Validation Accuracy = 0.988
     
     EPOCH 87 ...
-    Validation Accuracy = 0.987
+    Validation Accuracy = 0.989
     
     EPOCH 88 ...
     Validation Accuracy = 0.989
@@ -971,16 +971,16 @@ with tf.Session() as sess:
     Validation Accuracy = 0.988
     
     EPOCH 90 ...
-    Validation Accuracy = 0.987
+    Validation Accuracy = 0.988
     
     EPOCH 91 ...
-    Validation Accuracy = 0.987
+    Validation Accuracy = 0.989
     
     EPOCH 92 ...
     Validation Accuracy = 0.988
     
     EPOCH 93 ...
-    Validation Accuracy = 0.988
+    Validation Accuracy = 0.989
     
     EPOCH 94 ...
     Validation Accuracy = 0.989
@@ -989,44 +989,22 @@ with tf.Session() as sess:
     Validation Accuracy = 0.989
     
     EPOCH 96 ...
-    Validation Accuracy = 0.989
+    Validation Accuracy = 0.990
     
     EPOCH 97 ...
-    Validation Accuracy = 0.988
+    Validation Accuracy = 0.990
     
     EPOCH 98 ...
-    Validation Accuracy = 0.987
+    Validation Accuracy = 0.990
     
     EPOCH 99 ...
     Validation Accuracy = 0.988
     
     EPOCH 100 ...
-    Validation Accuracy = 0.988
+    Validation Accuracy = 0.990
     
+    Model saved
     
-
-
-    ---------------------------------------------------------------------------
-
-    ValueError                                Traceback (most recent call last)
-
-    <ipython-input-26-51167b27feb1> in <module>()
-         19         print()
-         20 
-    ---> 21     saver.save(sess, 'lenet')
-         22     print("Model saved")
-    
-
-    C:\Miniconda3\envs\carnd-term1\lib\site-packages\tensorflow\python\training\saver.py in save(self, sess, save_path, global_step, latest_filename, meta_graph_suffix, write_meta_graph, write_state)
-       1312     if not gfile.IsDirectory(os.path.dirname(save_path)):
-       1313       raise ValueError(
-    -> 1314           "Parent directory of {} doesn't exist, can't save.".format(save_path))
-       1315 
-       1316     save_path = os.path.dirname(save_path)
-    
-
-    ValueError: Parent directory of lenet doesn't exist, can't save.
-
 
 #### Evaluate the Model
 Evaluate the performance of the model on the test set when model is completely finished.
@@ -1040,7 +1018,7 @@ with tf.Session() as sess:
     print("Test Accuracy = {:.3f}".format(test_accuracy))
 ```
 
-    Test Accuracy = 0.951
+    Test Accuracy = 0.946
     
 
 ### Question 4
@@ -1056,7 +1034,7 @@ _How did you train your model? (Type of optimizer, batch size, epochs, hyperpara
 
 3. To improve generalization of classifier (decreasing overfitting of model), added L2 regularization into loss function and Dropout into full connected layers. EPOHS = 100, KEEP_PROP=0.5, BETA=0.00001 with augmentation gives the Validation Accurancy = 99%
 
-4. Evaluated generalization of model on the test set after the model has been fixed. Test Accuracy = 95.1%.
+4. Evaluated generalization of model on the test set after the model has been fixed. Test Accuracy = 94.6%.
 
 I used Adaptive Moment Estimation (Adam) gradient descent optimization algorithm to automate computing of adaptive learning rate.
 
@@ -1161,7 +1139,7 @@ plt.tight_layout()
 ```
 
 
-![png](./images/output_61_0.png)
+![png](output_61_0.png)
 
 
 
@@ -1192,7 +1170,7 @@ X_test_new = center_and_normaize_image(X_test_new, MEAN, STD)
 ```
 
 
-![png](./images/output_62_0.png)
+![png](output_62_0.png)
 
 
 ### Question 6
@@ -1273,13 +1251,17 @@ def show_softmax_prob(index, img, n_class, top_k_prob, top_k_clases):
     figsize=(20,10)
     
     ax2.set_title('Probability of top 5 classes', fontsize=8)
-    n_classes = range(len(top_k_clases))
+    n_classes = np.arange(len(top_k_clases))
     
     class_name = list()
         
     for i in range(len(top_k_clases)):
         class_name.append(sign_names[str(top_k_clases[i])])
     
+    # adds dummy element to shift labels on one position to the right.
+    n_classes = np.add(n_classes, 1)
+    class_name.insert(0, 'none')
+
     width = 1/1.5
     ax2.bar(n_classes, top_k_prob, width, color="blue")
     ax2.set_xticklabels(class_name, rotation='vertical')
@@ -1301,8 +1283,8 @@ top_k = calc_top_k(softmax_prob)
 print(top_k[0][0])
 ```
 
-    [  1.00000000e+00   1.61114253e-12   1.26703877e-12   1.01565826e-12
-       5.22764383e-16]
+    [  1.00000000e+00   4.53237335e-15   1.48190680e-15   1.05531242e-15
+       8.03239421e-19]
     
 
 
@@ -1312,7 +1294,7 @@ show_softmax_prob(0, new_images[0], y_test_new, top_k[0][0], top_k[1][0])
 ```
 
 
-![png](./images/output_74_0.png)
+![png](output_74_0.png)
 
 
 #### Sample 1: probability of top 5 classes
@@ -1322,8 +1304,8 @@ show_softmax_prob(0, new_images[0], y_test_new, top_k[0][0], top_k[1][0])
 print(top_k[0][1])
 ```
 
-    [  1.00000000e+00   1.13890347e-30   9.21308575e-34   2.24648235e-35
-       2.22934756e-36]
+    [  1.00000000e+00   5.52842483e-09   4.99893286e-11   1.13651641e-15
+       5.66119182e-16]
     
 
 
@@ -1332,7 +1314,7 @@ show_softmax_prob(1, new_images[1], y_test_new, top_k[0][1], top_k[1][1])
 ```
 
 
-![png](./images/output_77_0.png)
+![png](output_77_0.png)
 
 
 #### Sample 2: probability of top 5 classes
@@ -1342,8 +1324,8 @@ show_softmax_prob(1, new_images[1], y_test_new, top_k[0][1], top_k[1][1])
 print(top_k[0][2])
 ```
 
-    [  1.00000000e+00   1.20004771e-08   9.12338374e-14   2.49352227e-15
-       1.35735018e-15]
+    [  1.00000000e+00   1.55759433e-10   2.85753487e-11   4.23475858e-20
+       4.54817263e-21]
     
 
 
@@ -1352,7 +1334,7 @@ show_softmax_prob(2, new_images[2], y_test_new, top_k[0][2], top_k[1][2])
 ```
 
 
-![png](./images/output_80_0.png)
+![png](output_80_0.png)
 
 
 #### Sample 3: probability of top 5 classes
@@ -1362,8 +1344,8 @@ show_softmax_prob(2, new_images[2], y_test_new, top_k[0][2], top_k[1][2])
 print(top_k[0][3])
 ```
 
-    [  9.99741018e-01   2.58676795e-04   2.14980204e-07   1.26567813e-14
-       7.77634776e-15]
+    [  1.00000000e+00   6.23887964e-12   1.37961127e-12   4.26192691e-13
+       4.49589503e-14]
     
 
 
@@ -1372,7 +1354,7 @@ show_softmax_prob(3, new_images[3], y_test_new, top_k[0][3], top_k[1][3])
 ```
 
 
-![png](./images/output_83_0.png)
+![png](output_83_0.png)
 
 
 #### Sample 4: probability of top 5 classes
@@ -1382,8 +1364,8 @@ show_softmax_prob(3, new_images[3], y_test_new, top_k[0][3], top_k[1][3])
 print(top_k[0][4])
 ```
 
-    [  1.00000000e+00   1.42012477e-14   1.06435423e-19   2.19853992e-20
-       8.86511867e-24]
+    [  1.00000000e+00   6.95135338e-11   5.31713597e-11   4.47163973e-11
+       3.21606806e-15]
     
 
 
@@ -1392,7 +1374,7 @@ show_softmax_prob(4, new_images[4], y_test_new, top_k[0][4], top_k[1][4])
 ```
 
 
-![png](./images/output_86_0.png)
+![png](output_86_0.png)
 
 
 ### Question 8
@@ -1406,3 +1388,8 @@ All 5 predictions are correct (see above).
 
 > **Note**: Once you have completed all of the code implementations and successfully answered each question above, you may finalize your work by exporting the iPython Notebook as an HTML document. You can do this by using the menu above and navigating to  \n",
     "**File -> Download as -> HTML (.html)**. Include the finished document along with this notebook as your submission.
+
+
+```python
+
+```
